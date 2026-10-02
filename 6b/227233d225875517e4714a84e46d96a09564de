@@ -1,0 +1,25 @@
+src/i18n/ui.ts
+  s_8d4b8c12a35366::t_5def79ae919cd1 108-109
+src/components/Header.astro
+  s_8d4b8c12a35366::t_c8f3d19ad2d984 13
+src/styles/global.css
+  s_8d4b8c12a35366::t_02c47ea854a7b8 3,5-6
+src/components/Landing.astro
+  s_8d4b8c12a35366::t_c8f3d19ad2d984 88,92,96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6b227233d225875517e4714a84e46d96a09564de",
+  "prompts": {},
+  "sessions": {
+    "s_8d4b8c12a35366": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fade-ae41-7113-b85a-79dd2ffb137c",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    }
+  }
+}
