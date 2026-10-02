@@ -1,0 +1,54 @@
+src/layouts/Base.astro
+  s_906771d138d426::t_d0a66854e5cfba 7-9,15-19,27-28,34,36-37
+src/components/EpisodeDetail.astro
+  s_906771d138d426::t_6fba54c1a1be2a 1-42
+src/pages/episodes/index.astro
+  s_906771d138d426::t_6fba54c1a1be2a 1-21
+src/pages/episodes/[slug].astro
+  s_906771d138d426::t_6fba54c1a1be2a 1-5,7-32
+  s_906771d138d426::t_f8a40adb5b1d46 6
+src/data/episodes.ts
+  s_906771d138d426::t_6fba54c1a1be2a 1-12,14-19,21-34
+  s_906771d138d426::t_f036a8e11dbfda 13,20
+src/i18n/ui.ts
+  s_906771d138d426::t_d0a66854e5cfba 18,29,39-49,114,125,135-145,212-220
+  s_906771d138d426::t_9b0b314bb88a25 221
+src/components/EpisodesIndex.astro
+  s_906771d138d426::t_f036a8e11dbfda 43
+  s_906771d138d426::t_6fba54c1a1be2a 1-42,44-54
+src/components/Header.astro
+  s_906771d138d426::t_d0a66854e5cfba 2,6-7,10,12-18,23-30,40
+src/styles/global.css
+  s_906771d138d426::t_6fba54c1a1be2a 19-24
+  s_a56ef07ee6ce59::t_1662c312de9139 40-45
+src/pages/fr/episodes/[slug].astro
+  s_906771d138d426::t_6fba54c1a1be2a 1-32
+src/pages/fr/episodes/index.astro
+  s_906771d138d426::t_6fba54c1a1be2a 1-21
+src/components/Landing.astro
+  s_906771d138d426::t_d0a66854e5cfba 2,20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8bdf5321ea5112663272d8906dcd60ad6f6b9c6d",
+  "prompts": {},
+  "sessions": {
+    "s_906771d138d426": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fb2d-48d9-7af3-97ac-aae95c540df2",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    },
+    "s_a56ef07ee6ce59": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fb8b-05a9-74b0-a7f5-1ede2f2ffcca",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    }
+  }
+}
