@@ -1,0 +1,32 @@
+src/styles/global.css
+  s_19226021ff8713::t_3f03e9290f855d 26-27,30-31
+  s_19226021ff8713::t_cec6d761276d63 28-29,32
+README.md
+  s_07eecd6969c152::t_536d4eac519704 1-17
+src/components/Header.astro
+  s_19226021ff8713::t_307b245ce4dbff 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "88ff02a0d793b6b7588e1c46cdf778e8982fc096",
+  "prompts": {},
+  "sessions": {
+    "s_07eecd6969c152": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0faf4-c6cb-7301-805d-05410462c072",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    },
+    "s_19226021ff8713": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0faf8-4e9e-71a0-94e9-a0fe358811c8",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    }
+  }
+}
