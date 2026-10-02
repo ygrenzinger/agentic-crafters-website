@@ -1,0 +1,31 @@
+src/i18n/ui.ts
+  s_77f0851d203702::t_8cf2da652ce776 25,27-28,32,34,36,44,46,63,79,81-83,109,111-112,116,118,120,128,130,147,163,165-167
+  s_77f0851d203702::t_d0ebad8e2e011f 24,80,108,164
+src/styles/global.css
+  s_77f0851d203702::t_944da64aaf90e1 3,5-6
+src/components/Landing.astro
+  s_77f0851d203702::t_bba93c553e51eb 107-108
+  s_77f0851d203702::t_ea3c249e471afb 20,28,110-117
+design/canvas.json
+  s_77f0851d203702::t_323b6bc2f09f0f 9
+CLAUDE.md
+  s_77f0851d203702::t_18a1b35ec5b7de 87-89
+docs/superpowers/specs/2026-09-07-agentic-crafters-website-design.md
+  s_77f0851d203702::t_323b6bc2f09f0f 232-235
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ec4441baaab372be69c3a330958291e165adc6c7",
+  "prompts": {},
+  "sessions": {
+    "s_77f0851d203702": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0f78b-86cb-7931-9bf4-2ba0fcc62611",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    }
+  }
+}
