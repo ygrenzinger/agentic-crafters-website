@@ -1,0 +1,21 @@
+package.json
+  s_97f01ccbfb9e3e::t_989755bb5b8f12 17
+package-lock.json
+  s_97f01ccbfb9e3e::t_af08750fb5890b 15,1669-1678,4961-4967
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "51d0b39cdf5a10a3b3793da46844cf76608ab2d9",
+  "prompts": {},
+  "sessions": {
+    "s_97f01ccbfb9e3e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fbac-1e72-7491-9b7e-5f339bc62d6a",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    }
+  }
+}
