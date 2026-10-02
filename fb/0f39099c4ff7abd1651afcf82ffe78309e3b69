@@ -1,0 +1,19 @@
+src/styles/global.css
+  s_a75bebb12d51e7::t_206e1ee5ecd4f7 26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fb0f39099c4ff7abd1651afcf82ffe78309e3b69",
+  "prompts": {},
+  "sessions": {
+    "s_a75bebb12d51e7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fb04-0bf5-7682-89b4-b0c9ec3afc1a",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    }
+  }
+}
