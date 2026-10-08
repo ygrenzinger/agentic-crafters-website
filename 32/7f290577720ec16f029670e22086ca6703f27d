@@ -1,0 +1,40 @@
+src/components/Landing.astro
+  s_3a74f3d5bfbb02::t_e1bd008c0def73 4,25-27,30-37
+  s_3a74f3d5bfbb02::t_ebfb4273a21539 24,28-29
+  s_3a74f3d5bfbb02::t_c44e4b529574da 2
+src/styles/global.css
+  s_3a74f3d5bfbb02::t_b2e8400312c2e7 55-56
+  s_3a74f3d5bfbb02::t_802d74e7a31a8c 1-5,59
+public/fonts/OFL-DM-Sans.txt
+  s_3a74f3d5bfbb02::t_d34e4830fac23b 1-20,22-93
+  s_2bf1007239644a::t_2779b196e2ce6d 21
+src/layouts/Base.astro
+  s_3a74f3d5bfbb02::t_68a4c5832d4666 4,31-37
+public/fonts/OFL-Space-Grotesk.txt
+  s_3a74f3d5bfbb02::t_d34e4830fac23b 1-20,22-93
+  s_2bf1007239644a::t_2779b196e2ce6d 21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "327f290577720ec16f029670e22086ca6703f27d",
+  "prompts": {},
+  "sessions": {
+    "s_2bf1007239644a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11aaf-4a1a-7502-b06b-a7b096872735",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    },
+    "s_3a74f3d5bfbb02": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11a9a-2448-71c1-b864-e3d2882dc688",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    }
+  }
+}
