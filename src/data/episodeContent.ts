@@ -17,6 +17,11 @@ interface MarkdownModule {
 }
 
 const articles = import.meta.glob<MarkdownModule>('../content/episodes/*/article.*.md', { eager: true });
+const rawArticles = import.meta.glob<string>('../content/episodes/*/article.*.md', {
+  eager: true,
+  query: '?raw',
+  import: 'default',
+});
 const transcripts = import.meta.glob<string>('../content/episodes/*/transcript.txt', {
   eager: true,
   query: '?raw',
@@ -25,6 +30,10 @@ const transcripts = import.meta.glob<string>('../content/episodes/*/transcript.t
 
 export function getArticle(slug: string, lang: Locale): AstroComponentFactory | undefined {
   return articles[`../content/episodes/${slug}/article.${lang}.md`]?.Content;
+}
+
+export function getArticleMarkdown(slug: string, lang: Locale): string | undefined {
+  return rawArticles[`../content/episodes/${slug}/article.${lang}.md`]?.trim() || undefined;
 }
 
 export function getTranscript(slug: string): string | undefined {
