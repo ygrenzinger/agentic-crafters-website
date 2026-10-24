@@ -1,0 +1,40 @@
+src/pages/fr/index.md.ts
+  s_53f8efd1e3ebbe::t_5373732a18317b 1-4
+src/data/episodeContent.ts
+  s_53f8efd1e3ebbe::t_34f3750a448e3a 20-24,36
+  s_53f8efd1e3ebbe::t_5daef88da40daf 35
+  s_53f8efd1e3ebbe::t_629d28e3ca02e7 37-38
+src/data/markdown.ts
+  s_53f8efd1e3ebbe::t_9d76f7966f7427 1-2,4-48
+  s_53f8efd1e3ebbe::t_b5008b41436b76 3
+src/pages/fr/episodes/index.md.ts
+  s_53f8efd1e3ebbe::t_5373732a18317b 1-4
+src/pages/fr/episodes/[slug]/index.md.ts
+  s_53f8efd1e3ebbe::t_5373732a18317b 1-6
+src/pages/episodes/[slug]/index.md.ts
+  s_53f8efd1e3ebbe::t_5373732a18317b 1-6
+src/pages/llms.txt.ts
+  s_53f8efd1e3ebbe::t_5373732a18317b 1-4
+src/pages/episodes/index.md.ts
+  s_53f8efd1e3ebbe::t_5373732a18317b 1-4
+src/pages/index.md.ts
+  s_53f8efd1e3ebbe::t_5373732a18317b 1-4
+src/layouts/Base.astro
+  s_53f8efd1e3ebbe::t_12bd62487444c7 11,22,45-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "03f49d3ebfdc9860f2cc60f773f47a9c24acb408",
+  "prompts": {},
+  "sessions": {
+    "s_53f8efd1e3ebbe": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16f5b-17e2-7843-a4b9-a30f8d9f7373",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yannick Grenzinger <yannick.grenzinger@gmail.com>"
+    }
+  }
+}
